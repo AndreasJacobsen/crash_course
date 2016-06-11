@@ -32,4 +32,11 @@ print(fullname.title())
 
 #disse argumentene kan nøstes
 print("Languages\n\tPython\n\tC\n\tJavaScript")
-#
+
+#vi kan fjerne mellomrom med rstrilp
+favorit_language = 'python '
+print(favorit_language)
+print(favorit_language.rstrip())
+print(favorit_language) #her ser vi at rstrip bare kjører når vi printer, den endrer ikke variabelen. da fjernen den right strip
+
+#for å fjerne left strip bruker vi .lstrip, for å fjerne alle mellomrom bruker vi .strip
