@@ -7,7 +7,7 @@ dogs_cats = ['muts', 'cats', 'meow', 'woff']
 
 x = 0
 
-#egen løkke for å øve
+#egen løkke for å øvep
 for x in range (0, 3):
     if x ==1:
         print ('x er',x)
