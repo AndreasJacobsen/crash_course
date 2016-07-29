@@ -21,7 +21,7 @@ magicians = ['alice','david', 'caroline']
 for magicians_variable in magicians:
     print(magicians_variable.title() + " is a magician with capital letters in her name! " )
     print('I can\'t wait to see your next trick ' + magicians_variable.title() + ".\n")
-
+#in order to print after a for then you stop having it indentet
 #How many magicians are there?
 i = 0
 print ('Let\'s count magicians!')
