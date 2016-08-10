@@ -4,6 +4,7 @@ for value in range(1,5):
 print () #Legger til newline
 for value in range (1,6): #STOPPER på sluttverdien, så sluttverdien blir ikke telt
     print(value)
+    print("Dette er value")
 
 #we can use the list function to store a set of numbers in a variabler
 numbers = list(range(1,10))
